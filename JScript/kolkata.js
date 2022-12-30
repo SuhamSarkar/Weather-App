@@ -1,4 +1,4 @@
-const agartala = {
+const kolkata = {
 	method: 'GET',
 	headers: {
 		'X-RapidAPI-Key': '4b9a91e6acmsh861064df709e452p1577cajsnfb4fef5bc04b',
@@ -6,7 +6,7 @@ const agartala = {
 	}
 };
 
-fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Seattle', kolkata)
+fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city= kolkata', kolkata )
 	.then(response => response.json())
 	.then(response => {
 	    kolk_feels_like.innerHTML = response.feels_like

@@ -6,7 +6,7 @@ const agartala = {
 	}
 };
 
-fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Seattle', agartala)
+fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city= agartala' , agartala)
 	.then(response => response.json())
 	.then(response => {
 		agt_feels_like.innerHTML = response.feels_like
